@@ -1,0 +1,95 @@
+body{
+  background-color: lightgray;
+}
+.navbar{
+    /* border: 2px solid black; */
+  
+    color: black;
+    font-family: 'League Gothic', sans-serif
+  }
+  ul{
+    list-style: none;
+    text-decoration: none;
+  }
+  .header .navbar .img{
+    margin: 20px;
+    float: left;
+    width: 15%;
+  }
+  
+  .header .navbar a{
+    text-decoration: none;
+    font-size: larger;
+    color: rgb(11, 11, 11);
+    margin: left 20px;
+  }
+  .navbar a:hover{
+    /* text-shadow: 10px; */
+    color: rgb(2, 196, 196);
+    
+    /* transition: ease-out; */
+  }
+  .header .navbar .nav-item{
+    float: right;
+    padding: 5px 30px;
+  }
+  .navbar::after{
+    content: " ";
+    display: block;
+    clear: both;
+  }
+  .cart {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    background-color: white;
+    box-shadow: black;
+}
+
+.cart h2 {
+    text-align: center;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.item-details {
+    display: flex;
+    align-items: center;
+}
+
+.item-details img {
+    width: 80px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.remove-btn {
+    background-color: #ff5757;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.cart-total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.checkout-btn {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}

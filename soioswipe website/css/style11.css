@@ -1,0 +1,122 @@
+.navbar{
+    /* border: 2px solid black; */
+  
+    color: black;
+    font-family: 'League Gothic', sans-serif
+  }
+  
+  .header .navbar .img{
+    margin: 20px;
+    float: left;
+    width: 15%;
+  }
+  
+  .header .navbar a{
+    text-decoration: none;
+    font-size: larger;
+    color: rgb(11, 11, 11);
+    margin: left 20px;
+  }
+  ul{
+    list-style: none;
+    text-decoration: none;
+}
+  .navbar a:hover{
+    /* text-shadow: 10px; */
+    color: rgb(2, 196, 196);
+    
+    /* transition: ease-out; */
+  }
+  .header .navbar .nav-item{
+    float: right;
+    padding: 5px 30px;
+  }
+  .navbar::after{
+    content: " ";
+    display: block;
+    clear: both;
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-form {
+    flex-basis: 45%; /* Adjust width of login form */
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.74);
+    padding: 20px;
+}
+
+.login-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.login-form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.photo {
+    flex-basis: 50%; /* Adjust width of photo */
+}
+
+.photo img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .login-form, .photo {
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+}
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #45a049;
+}

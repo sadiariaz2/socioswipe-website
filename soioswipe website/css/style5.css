@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: lightgrey;
+}
+ul{
+    list-style: none;
+    text-decoration: none;
+}
+.navbar{
+    /* border: 2px solid black; */
+
+    color: black;
+
+    font-family: 'League Gothic', sans-serif
+}
+
+.header .navbar .img{
+    margin: 20px;
+    float: left;
+    width: 15%;
+}
+
+.header .navbar a{
+    text-decoration: none;
+    font-size: larger;
+    color: rgb(8, 8, 8);
+    margin: left 20px;
+}
+.navbar a:hover{
+    /* text-shadow: 10px; */
+    color: rgb(2, 196, 196);
+    
+    /* transition: ease-out; */
+}
+.header .navbar .nav-item{
+    float: right;
+    padding: 5px 30px;
+}
+.navbar::after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    color: #333;
+    border-radius: 100px;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.product {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.product img {
+    width: 200px;
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.product h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.product p {
+    margin-bottom: 15px;
+    color: #666;
+}
+
+.product button {
+    padding: 10px 20px;
+    border: none;
+    background-color: rgb(2, 196, 196);
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.product button:hover {
+    background-color: black;
+}
